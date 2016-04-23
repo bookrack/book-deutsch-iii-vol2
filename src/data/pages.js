@@ -647,6 +647,24 @@ module.exports = function() {
       ]
     },
     '29': {
+      static: [
+        {
+          image: 'pg29ichmag',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '82%'
+            },
+            zone: {
+              top: '82%',
+              bottom: '4%'
+            }
+          }
+        }
+      ],
       video: [
         {
           video: {
@@ -700,6 +718,42 @@ module.exports = function() {
         }
       ]
     },
+    '32': {
+      static: [
+        {
+          image: 'pg32ex6',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '9%'
+            },
+            zone: {
+              top: '9%',
+              bottom: '63.5%'
+            }
+          }
+        },
+        {
+          image: 'pg32ex8',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '69%'
+            },
+            zone: {
+              top: '69%',
+              bottom: '1.5%'
+            }
+          }
+        }
+      ]
+    },
     '33': {
       video: [
         {
@@ -713,6 +767,98 @@ module.exports = function() {
             zone: {
               top: '18%',
               bottom: '34%'
+            }
+          }
+        }
+      ]
+    },
+    '35': {
+      static: [
+        {
+          image: 'pg35static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '19%'
+            },
+            zone: {
+              top: '19%',
+              bottom: '35%',
+              left: '4%',
+              width: '50%'
+            }
+          }
+        },
+        {
+          image: 'pg35static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '40%'
+            },
+            zone: {
+              top: '40%',
+              bottom: '25%',
+              left: '57%',
+              width: '36%'
+            }
+          }
+        }
+      ]
+    },
+    '36': {
+      static: [
+        {
+          image: 'pg36static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '13%'
+            },
+            zone: {
+              top: '13%',
+              bottom: '71%'
+            }
+          }
+        },
+        {
+          image: 'pg36static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '32%'
+            },
+            zone: {
+              top: '32%',
+              bottom: '23%'
+            }
+          }
+        },
+        {
+          image: 'pg36static3',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '78%'
+            },
+            zone: {
+              top: '78%',
+              bottom: '6%'
             }
           }
         }
@@ -755,6 +901,24 @@ module.exports = function() {
       ]
     },
     '39': {
+      static: [
+        {
+          image: 'pg39adventex1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '54%'
+            },
+            zone: {
+              top: '54%',
+              bottom: '3%'
+            }
+          }
+        }
+      ],
       video: [
         {
           video: {
@@ -849,6 +1013,100 @@ module.exports = function() {
             zone: {
               top: '10%',
               bottom: '2%'
+            }
+          }
+        }
+      ]
+    },
+    '43': {
+      static: [
+        {
+          image: 'pg43ex1static1',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '25%'
+            },
+            zone: {
+              top: '25%',
+              bottom: '52%',
+              left: '38%',
+              width: '29%'
+            }
+          }
+        },
+        {
+          image: 'pg43ex1static2',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '30%'
+            },
+            zone: {
+              top: '30%',
+              bottom: '45%',
+              left: '67%',
+              width: '29%'
+            }
+          }
+        },
+        {
+          image: 'pg43ex1static3',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '45%'
+            },
+            zone: {
+              top: '45%',
+              bottom: '32%',
+              left: '13%',
+              width: '29%'
+            }
+          }
+        },
+        {
+          image: 'pg43ex1static4',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '73%'
+            },
+            zone: {
+              top: '73%',
+              bottom: '3%',
+              left: '17%',
+              width: '29%'
+            }
+          }
+        },
+        {
+          image: 'pg43ex1static5',
+          audio: {
+            source: 'fundal1',
+            state: 'stopped'
+          },
+          trigger: {
+            button: {
+              top: '59%'
+            },
+            zone: {
+              top: '59%',
+              bottom: '12%',
+              left: '64%',
+              width: '29%'
             }
           }
         }
