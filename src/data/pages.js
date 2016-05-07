@@ -723,6 +723,121 @@ module.exports = function() {
         }
       ]
     },
+    '23': {
+      exercise: [
+        {
+          type: 'picker',
+          title: 'Lies! In jedem Satz gibt es Wörter, die dort falsch sind. Schreib sie unten und du findest ein deutsches Sprichwort.',
+          image: 'pg23ex8a',
+          trigger: {
+            button: {
+              top: '11%'
+            },
+            zone: {
+              top: '11%',
+              bottom: '18%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'In fiecare propozitie exista cuvinte in plus. Scrise la rand formeaza un proverb.'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '22.1%',
+                left: '40.8%',
+                width: '6.8%',
+                height: '2.5%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '24.5%',
+                left: '31.8%',
+                width: '12.5%',
+                height: '2.5%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '26.8%',
+                left: '24.1%',
+                width: '7.2%',
+                height: '2.5%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '44.5%',
+                left: '57.4%',
+                width: '7.2%',
+                height: '2.5%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'five',
+              model: '',
+              position: {
+                top: '51.9%',
+                left: '55.2%',
+                width: '7%',
+                height: '2.5%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'six',
+              model: '',
+              position: {
+                top: '54.2%',
+                left: '57.8%',
+                width: '7.6%',
+                height: '2.5%'
+              },
+              answer: {
+                left: '0'
+              }
+            },
+            {
+              identifier: 'seven',
+              model: '',
+              position: {
+                top: '56.6%',
+                left: '46.3%',
+                width: '15.5%',
+                height: '2.5%'
+              },
+              answer: {
+                left: '0'
+              }
+            }
+          ]
+        }
+      ]
+    },
     '25': {
       static: [
         {
@@ -778,6 +893,129 @@ module.exports = function() {
               bottom: '4%'
             }
           }
+        }
+      ]
+    },
+    '28': {
+      exercise: [
+        {
+          type: 'type',
+          title: 'Hör zu, zeig und schreib die Nummern!',
+          image: 'pg28ex2',
+          trigger: {
+            button: {
+              top: '8%'
+            },
+            zone: {
+              top: '8%',
+              bottom: '4%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Asculta si scrie numarul.Cand ai terminat apasa pe cheita si verification Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '83.8%',
+                left: '39.7%',
+                width: '6.6%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '1'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '30.8%',
+                left: '12%',
+                width: '6.6%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '2'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '57%',
+                left: '10.8%',
+                width: '6.6%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '3'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '83.8%',
+                left: '66.6%',
+                width: '6.6%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '4'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '30.8%',
+                left: '65.6%',
+                width: '6.6%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '5'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '83.8%',
+                left: '13%',
+                width: '6.6%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '6'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '57%',
+                left: '38.8%',
+                width: '6.6%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '7'
+            },
+            {
+              identifier: 'eight',
+              position: {
+                top: '57%',
+                left: '67.2%',
+                width: '6.6%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '8'
+            },
+            {
+              identifier: 'nine',
+              position: {
+                top: '30.8%',
+                left: '38.8%',
+                width: '6.6%',
+                height: '5.5%'
+              },
+              model: '',
+              solution: '9'
+            }
+          ]
         }
       ]
     },
@@ -870,6 +1108,172 @@ module.exports = function() {
               bottom: '35%'
             }
           }
+        }
+      ],
+      exercise: [
+        {
+          type: 'checker',
+          title: 'Lies und kreuze an: RICHTIG - FALSCH!',
+          image: 'pg32ex10',
+          trigger: {
+            button: {
+              top: '66%'
+            },
+            zone: {
+              top: '66%',
+              bottom: '3%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Citeste si bifeaza R(corect) sau F(gresit)Cand ai terminat apasa pe cheita si verification Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '38.5%',
+                left: '79.9%',
+                width: '8.4%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '54%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '8%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '41.6%',
+                left: '79.9%',
+                width: '8.4%',
+                height: '2.5%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '54%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '8%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '44.6%',
+                left: '79.9%',
+                width: '8.4%',
+                height: '2.5%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '54%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '8%'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '47.6%',
+                left: '79.9%',
+                width: '8.4%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '54%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '8%'
+              }
+            },
+            {
+              identifier: 'five',
+              model: '',
+              position: {
+                top: '50.6%',
+                left: '79.9%',
+                width: '8.4%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '54%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '8%'
+              }
+            },
+            {
+              identifier: 'six',
+              model: '',
+              position: {
+                top: '53.6%',
+                left: '79.9%',
+                width: '8.4%',
+                height: '2.5%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '54%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '8%'
+              }
+            },
+            {
+              identifier: 'seven',
+              model: '',
+              position: {
+                top: '56.6%',
+                left: '79.9%',
+                width: '8.4%',
+                height: '2.5%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '54%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '8%'
+              }
+            },
+            {
+              identifier: 'eight',
+              model: '',
+              position: {
+                top: '59.6%',
+                left: '79.9%',
+                width: '8.4%',
+                height: '2.5%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '54%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '8%'
+              }
+            }
+          ]
         }
       ]
     },
@@ -1129,6 +1533,110 @@ module.exports = function() {
         }
       ]
     },
+    '43': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Was für Bücher sind das?',
+          image: 'pg43ex1',
+          trigger: {
+            button: {
+              top: '14%'
+            },
+            zone: {
+              top: '14%',
+              bottom: '4%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Scrie ce tip de carti sunt cele ilustrate. Cand ai terminat apasa pe cheita si verification Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '31%',
+                left: '16%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Krimi'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '37.3%',
+                left: '55.5%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Gruselbuch'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '46.9%',
+                left: '16%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Märchenbuch'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '53.2%',
+                left: '55.5%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Comic'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '62.8%',
+                left: '16%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Roman'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '69%',
+                left: '53.5%',
+                width: '28%'
+              },
+              model: '',
+              solution: 'Science-Fiction-Buch'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '78.6%',
+                left: '16%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Tierbuch'
+            },
+            {
+              identifier: 'eight',
+              position: {
+                top: '85%',
+                left: '55.5%',
+                width: '20%'
+              },
+              model: '',
+              solution: 'Aben­teuerbuch'
+            }
+          ]
+        }
+      ]
+    },
     '46': {
       video: [
         {
@@ -1293,6 +1801,172 @@ module.exports = function() {
             }
           }
         }
+      ],
+      exercise: [
+        {
+          type: 'checker',
+          title: 'Lies und kreuze RICHTIG oder FALSCH an!',
+          image: 'pg51ex3',
+          trigger: {
+            button: {
+              top: '6%'
+            },
+            zone: {
+              top: '6%',
+              bottom: '59%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Citeste si bifeaza R(corect) sau F(gresit). Cand ai terminat apasa pe cheita si verification Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '36%',
+                left: '81.2%',
+                width: '8.1%',
+                height: '2.6%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '54%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '8%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '39.4%',
+                left: '81.2%',
+                width: '8.1%',
+                height: '2.6%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '54%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '8%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '42.6%',
+                left: '81.2%',
+                width: '8.1%',
+                height: '2.6%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '54%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '8%'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '48.3%',
+                left: '81.2%',
+                width: '8.1%',
+                height: '2.6%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '54%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '8%'
+              }
+            },
+            {
+              identifier: 'five',
+              model: '',
+              position: {
+                top: '51.5%',
+                left: '81.2%',
+                width: '8.1%',
+                height: '2.6%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '54%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '8%'
+              }
+            },
+            {
+              identifier: 'six',
+              model: '',
+              position: {
+                top: '54.8%',
+                left: '81.2%',
+                width: '8.1%',
+                height: '2.6%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '54%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '8%'
+              }
+            },
+            {
+              identifier: 'seven',
+              model: '',
+              position: {
+                top: '58.1%',
+                left: '81.2%',
+                width: '8.1%',
+                height: '2.6%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '54%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '8%'
+              }
+            },
+            {
+              identifier: 'eight',
+              model: '',
+              position: {
+                top: '61.4%',
+                left: '81.2%',
+                width: '8.1%',
+                height: '2.6%'
+              },
+              answerFalse: {
+                top: '9%',
+                left: '54%'
+              },
+              answerTrue: {
+                top: '9%',
+                left: '8%'
+              }
+            }
+          ]
+        }
       ]
     },
     '52': {
@@ -1384,6 +2058,140 @@ module.exports = function() {
               bottom: '3%'
             }
           }
+        }
+      ],
+      exercise: [
+        {
+          type: 'checker',
+          title: 'Hör zu und umkreis den richtigen Preis!',
+          image: 'pg56ex10',
+          trigger: {
+            button: {
+              top: '10%'
+            },
+            zone: {
+              top: '10%',
+              bottom: '53%'
+            }
+          },
+          // audio: {
+          //   source: 'fundal1',
+          //   state: 'stopped'
+          // },
+          help: {
+            toggle: false,
+            text: 'Asculta si bifeaza pretul corect. Cand ai terminat apasa pe cheita si verification Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '35.4%',
+                left: '10.2%',
+                width: '8.6%',
+                height: '5.1%'
+              },
+              answerFalse: {
+                top: '7%',
+                left: '44%'
+              },
+              answerTrue: {
+                top: '50%',
+                left: '44%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '35%',
+                left: '49.2%',
+                width: '8.6%',
+                height: '5.1%'
+              },
+              answerTrue: {
+                top: '7%',
+                left: '44%'
+              },
+              answerFalse: {
+                top: '50%',
+                left: '44%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '37.6%',
+                left: '80.4%',
+                width: '8.6%',
+                height: '5.1%'
+              },
+              answerTrue: {
+                top: '7%',
+                left: '44%'
+              },
+              answerFalse: {
+                top: '50%',
+                left: '44%'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '57.6%',
+                left: '11.2%',
+                width: '8.6%',
+                height: '5.1%'
+              },
+              answerTrue: {
+                top: '7%',
+                left: '44%'
+              },
+              answerFalse: {
+                top: '50%',
+                left: '44%'
+              }
+            },
+            {
+              identifier: 'five',
+              model: '',
+              position: {
+                top: '49.8%',
+                left: '39%',
+                width: '8.6%',
+                height: '5.1%'
+              },
+              answerFalse: {
+                top: '7%',
+                left: '44%'
+              },
+              answerTrue: {
+                top: '50%',
+                left: '44%'
+              }
+            },
+            {
+              identifier: 'six',
+              model: '',
+              position: {
+                top: '60.1%',
+                left: '77.2%',
+                width: '8.6%',
+                height: '5.1%'
+              },
+              answerTrue: {
+                top: '7%',
+                left: '44%'
+              },
+              answerFalse: {
+                top: '50%',
+                left: '44%'
+              }
+            }
+          ]
         }
       ]
     },
@@ -1531,6 +2339,90 @@ module.exports = function() {
         }
       ]
     },
+    '65': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Ergänze!',
+          image: 'pg65ex3',
+          trigger: {
+            button: {
+              top: '7%'
+            },
+            zone: {
+              top: '7%',
+              bottom: '3%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Completeaza unde poti cumpara produsele. Cand ai terminat apasa pe cheita si verification Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '14.4%',
+                left: '72%',
+                width: '22%'
+              },
+              model: '',
+              solution: 'Bäckerei.'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '28.8%',
+                left: '69%',
+                width: '27%'
+              },
+              model: '',
+              solution: 'Bekleidungsgeschäft.'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '43.5%',
+                left: '65%',
+                width: '30%'
+              },
+              model: '',
+              solution: 'Im Spielwarengeschäft.'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '58%',
+                left: '65%',
+                width: '30%'
+              },
+              model: '',
+              solution: 'In der Drogerie.'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '72.6%',
+                left: '65%',
+                width: '30%'
+              },
+              model: '',
+              solution: 'In der Tierhandlung.'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '87.2%',
+                left: '65%',
+                width: '30%'
+              },
+              model: '',
+              solution: 'In der Buchhandlung.'
+            }
+          ]
+        }
+      ]
+    },
     '67': {
       video: [
         {
@@ -1600,6 +2492,1152 @@ module.exports = function() {
               bottom: '3%'
             }
           }
+        }
+      ]
+    },
+    '71': {
+      exercise: [
+        {
+          type: 'typer',
+          title: 'Schreib die Wörter und verbinde!',
+          image: 'pg71ex3',
+          trigger: {
+            button: {
+              top: '39%'
+            },
+            zone: {
+              top: '39%',
+              bottom: '32%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Scrie cuvintele corect si uneste-le cu imaginile. Cand ai terminat apasa pe cheita si verification Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '38.5%',
+                left: '39%',
+                width: '24%'
+              },
+              model: '',
+              solution: 'ERDKUNDE'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '43.1%',
+                left: '39%',
+                width: '24%'
+              },
+              model: '',
+              solution: 'INFORMATIK'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '47.2%',
+                left: '39%',
+                width: '24%'
+              },
+              model: '',
+              solution: 'GESCHICHTE'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '51.2%',
+                left: '39%',
+                width: '24%'
+              },
+              model: '',
+              solution: 'MUSIK'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '55.1%',
+                left: '39%',
+                width: '24%'
+              },
+              model: '',
+              solution: 'BIOLOGIE'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '59.2%',
+                left: '39%',
+                width: '24%'
+              },
+              model: '',
+              solution: 'DEUTSCH'
+            }
+          ]
+        },
+        {
+          type: 'typer',
+          title: 'Schreib die Sätze in der richtigen Reihenfolge!',
+          image: 'pg71ex4',
+          trigger: {
+            button: {
+              top: '68%'
+            },
+            zone: {
+              top: '68%',
+              bottom: '5%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Scrie propozitiile punand cuvintele in ordinea corecta. Cand ai terminat apasa pe cheita si verification Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '42.2%',
+                left: '13%',
+                width: '42%'
+              },
+              model: '',
+              solution: 'Was ist Pauls Lieblingsfach?'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '47.4%',
+                left: '13%',
+                width: '62%'
+              },
+              model: '',
+              solution: 'Am Freitag habe ich Geschichte und Mathe.'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '52.6%',
+                left: '13%',
+                width: '74%'
+              },
+              model: '',
+              solution: 'Musik ist mein Lieblingsfach, ich bin sehr gut in Musik.'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '57.7%',
+                left: '13%',
+                width: '54%'
+              },
+              model: '',
+              solution: 'Dienstag haben wir die Deutscharbeit.'
+            }
+          ]
+        }
+      ]
+    },
+    '73': {
+      exercise: [
+        {
+          type: 'checker',
+          title: 'Kreuze die richtigen Sätze an!',
+          image: 'pg73ex8',
+          trigger: {
+            button: {
+              top: '9%'
+            },
+            zone: {
+              top: '9%',
+              bottom: '24%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Bifeaza propozitiile corecte. Cand ai terminat apasa pe cheita si verification Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              model: '',
+              position: {
+                top: '20.6%',
+                left: '13.4%',
+                width: '3.3%',
+                height: '5.5%'
+              },
+              answerFalse: {
+                top: '4%',
+                left: '7%'
+              },
+              answerTrue: {
+                top: '55%',
+                left: '7%'
+              }
+            },
+            {
+              identifier: 'two',
+              model: '',
+              position: {
+                top: '27.3%',
+                left: '13.4%',
+                width: '3.3%',
+                height: '5.5%'
+              },
+              answerTrue: {
+                top: '4%',
+                left: '7%'
+              },
+              answerFalse: {
+                top: '55%',
+                left: '7%'
+              }
+            },
+            {
+              identifier: 'three',
+              model: '',
+              position: {
+                top: '34.1%',
+                left: '13.4%',
+                width: '3.3%',
+                height: '5.5%'
+              },
+              answerFalse: {
+                top: '4%',
+                left: '7%'
+              },
+              answerTrue: {
+                top: '55%',
+                left: '7%'
+              }
+            },
+            {
+              identifier: 'four',
+              model: '',
+              position: {
+                top: '40.8%',
+                left: '13.4%',
+                width: '3.3%',
+                height: '5.5%'
+              },
+              answerFalse: {
+                top: '4%',
+                left: '7%'
+              },
+              answerTrue: {
+                top: '55%',
+                left: '7%'
+              }
+            },
+            {
+              identifier: 'five',
+              model: '',
+              position: {
+                top: '47.6%',
+                left: '13.4%',
+                width: '3.3%',
+                height: '5.5%'
+              },
+              answerTrue: {
+                top: '4%',
+                left: '7%'
+              },
+              answerFalse: {
+                top: '55%',
+                left: '7%'
+              }
+            },
+            {
+              identifier: 'six',
+              model: '',
+              position: {
+                top: '54.3%',
+                left: '13.4%',
+                width: '3.3%',
+                height: '5.5%'
+              },
+              answerTrue: {
+                top: '4%',
+                left: '7%'
+              },
+              answerFalse: {
+                top: '55%',
+                left: '7%'
+              }
+            },
+            {
+              identifier: 'seven',
+              model: '',
+              position: {
+                top: '61.1%',
+                left: '13.4%',
+                width: '3.3%',
+                height: '5.5%'
+              },
+              answerFalse: {
+                top: '4%',
+                left: '7%'
+              },
+              answerTrue: {
+                top: '55%',
+                left: '7%'
+              }
+            },
+            {
+              identifier: 'eight',
+              model: '',
+              position: {
+                top: '67.8%',
+                left: '13.4%',
+                width: '3.3%',
+                height: '5.5%'
+              },
+              answerTrue: {
+                top: '4%',
+                left: '7%'
+              },
+              answerFalse: {
+                top: '55%',
+                left: '7%'
+              }
+            },
+            {
+              identifier: 'nine',
+              model: '',
+              position: {
+                top: '74.6%',
+                left: '13.4%',
+                width: '3.3%',
+                height: '5.5%'
+              },
+              answerFalse: {
+                top: '4%',
+                left: '7%'
+              },
+              answerTrue: {
+                top: '55%',
+                left: '7%'
+              }
+            }
+          ]
+        }
+      ]
+    },
+    '74': {
+      exercise: [
+        {
+          type: 'type',
+          title: 'Schreib die Namen der Geschäfte ins Kreuzworträtsel!',
+          image: 'pg74ex11',
+          trigger: {
+            button: {
+              top: '59%'
+            },
+            zone: {
+              top: '59%',
+              bottom: '3%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Scrie numele magazinelor. Cand ai terminat apasa pe cheita si verification Succes!'
+          },
+          data: [
+            {
+              identifier: 'one',
+              position: {
+                top: '35.2%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 's'
+            },
+            {
+              identifier: 'two',
+              position: {
+                top: '36.9%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'p'
+            },
+            {
+              identifier: 'three',
+              position: {
+                top: '38.6%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'i'
+            },
+            {
+              identifier: 'four',
+              position: {
+                top: '40.4%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '42.1%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'l'
+            },
+            {
+              identifier: 'six',
+              position: {
+                top: '43.9%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'w'
+            },
+            {
+              identifier: 'seven',
+              position: {
+                top: '45.6%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'a'
+            },
+            {
+              identifier: 'eight',
+              position: {
+                top: '47.2%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'r'
+            },
+            {
+              identifier: 'nine',
+              position: {
+                top: '49%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'ten',
+              position: {
+                top: '50.7%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'eleven',
+              position: {
+                top: '52.4%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'g'
+            },
+            {
+              identifier: 'twelve',
+              position: {
+                top: '54.1%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'thirteen',
+              position: {
+                top: '55.8%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 's'
+            },
+            {
+              identifier: 'fourteen',
+              position: {
+                top: '57.6%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'c'
+            },
+            {
+              identifier: 'fifteen',
+              position: {
+                top: '59.3%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'h'
+            },
+            {
+              identifier: 'sixteen',
+              position: {
+                top: '61%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'ä'
+            },
+            {
+              identifier: 'seventeen',
+              position: {
+                top: '62.7%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'f'
+            },
+            {
+              identifier: 'eighteen',
+              position: {
+                top: '64.5%',
+                left: '40.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 't'
+            },
+            {
+              identifier: 'nineteen',
+              position: {
+                top: '35.2%',
+                left: '12.2%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'b'
+            },
+            {
+              identifier: 'twenty',
+              position: {
+                top: '35.2%',
+                left: '14.4%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'twentyone',
+              position: {
+                top: '35.2%',
+                left: '16.6%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'k'
+            },
+            {
+              identifier: 'twentytwo',
+              position: {
+                top: '35.2%',
+                left: '18.6%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'l'
+            },
+            {
+              identifier: 'twentythree',
+              position: {
+                top: '35.2%',
+                left: '20.8%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'twentyfour',
+              position: {
+                top: '35.2%',
+                left: '23.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'i'
+            },
+            {
+              identifier: 'twentyfive',
+              position: {
+                top: '35.2%',
+                left: '25.3%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'd'
+            },
+            {
+              identifier: 'twentysix',
+              position: {
+                top: '35.2%',
+                left: '27.4%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'u'
+            },
+            {
+              identifier: 'twentyseven',
+              position: {
+                top: '35.2%',
+                left: '29.6%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'twentyeight',
+              position: {
+                top: '35.2%',
+                left: '31.7%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'g'
+            },
+            {
+              identifier: 'twentynine',
+              position: {
+                top: '35.2%',
+                left: '33.9%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 's'
+            },
+            {
+              identifier: 'thirty',
+              position: {
+                top: '35.2%',
+                left: '36.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'g'
+            },
+            {
+              identifier: 'thirtyone',
+              position: {
+                top: '35.2%',
+                left: '38.2%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'thirtytwo',
+              position: {
+                top: '35.2%',
+                left: '42.6%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'c'
+            },
+            {
+              identifier: 'thirtythree',
+              position: {
+                top: '35.2%',
+                left: '44.8%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'h'
+            },
+            {
+              identifier: 'thirtyfour',
+              position: {
+                top: '35.2%',
+                left: '46.9%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'ä'
+            },
+            {
+              identifier: 'thirtyfive',
+              position: {
+                top: '35.2%',
+                left: '49.2%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'f'
+            },
+            {
+              identifier: 'thirtysix',
+              position: {
+                top: '35.2%',
+                left: '51.2%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 't'
+            },
+            {
+              identifier: 'thirtyseven',
+              position: {
+                top: '40.4%',
+                left: '25.3%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'd'
+            },
+            {
+              identifier: 'thirtyeight',
+              position: {
+                top: '40.4%',
+                left: '27.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'r'
+            },
+            {
+              identifier: 'thirtynine',
+              position: {
+                top: '40.4%',
+                left: '29.6%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'o'
+            },
+            {
+              identifier: 'fourty',
+              position: {
+                top: '40.4%',
+                left: '31.7%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'g'
+            },
+            {
+              identifier: 'fourtyone',
+              position: {
+                top: '40.4%',
+                left: '33.8%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'fourtytwo',
+              position: {
+                top: '40.4%',
+                left: '36.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'r'
+            },
+            {
+              identifier: 'fourtythree',
+              position: {
+                top: '40.4%',
+                left: '38.3%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'i'
+            },
+            {
+              identifier: 'fourtyfour',
+              position: {
+                top: '47.2%',
+                left: '29.6%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'b'
+            },
+            {
+              identifier: 'fourtyfive',
+              position: {
+                top: '47.2%',
+                left: '31.8%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'a'
+            },
+            {
+              identifier: 'fourtysix',
+              position: {
+                top: '47.2%',
+                left: '33.9%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'c'
+            },
+            {
+              identifier: 'fourtyseven',
+              position: {
+                top: '47.2%',
+                left: '36.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'k'
+            },
+            {
+              identifier: 'fourtyeight',
+              position: {
+                top: '47.2%',
+                left: '38.2%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'fourtynine',
+              position: {
+                top: '47.2%',
+                left: '42.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'fifty',
+              position: {
+                top: '47.2%',
+                left: '44.8%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'i'
+            },
+            {
+              identifier: 'fiftyone',
+              position: {
+                top: '59.3%',
+                left: '31.8%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 't'
+            },
+            {
+              identifier: 'fiftytwo',
+              position: {
+                top: '59.3%',
+                left: '33.9%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'i'
+            },
+            {
+              identifier: 'fiftythree',
+              position: {
+                top: '59.3%',
+                left: '36.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'e'
+            },
+            {
+              identifier: 'fiftyfour',
+              position: {
+                top: '59.3%',
+                left: '38.3%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'r'
+            },
+            {
+              identifier: 'fiftyfive',
+              position: {
+                top: '59.3%',
+                left: '42.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'a'
+            },
+            {
+              identifier: 'fiftysix',
+              position: {
+                top: '59.3%',
+                left: '44.8%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'fiftyseven',
+              position: {
+                top: '59.3%',
+                left: '47%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'd'
+            },
+            {
+              identifier: 'fiftyeight',
+              position: {
+                top: '59.3%',
+                left: '49.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'l'
+            },
+            {
+              identifier: 'fiftynine',
+              position: {
+                top: '59.3%',
+                left: '51.3%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'u'
+            },
+            {
+              identifier: 'sixty',
+              position: {
+                top: '59.3%',
+                left: '53.5%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'sixtyone',
+              position: {
+                top: '59.3%',
+                left: '55.6%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'g'
+            },
+            {
+              identifier: 'sixtytwo',
+              position: {
+                top: '45.5%',
+                left: '49.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'b'
+            },
+            {
+              identifier: 'sixtythree',
+              position: {
+                top: '61%',
+                left: '49.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'u'
+            },
+            {
+              identifier: 'sixtyfour',
+              position: {
+                top: '62.7%',
+                left: '49.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'sixtyfive',
+              position: {
+                top: '64.4%',
+                left: '49.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'g'
+            },
+            {
+              identifier: 'sixtysix',
+              position: {
+                top: '47.2%',
+                left: '49.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'u'
+            },
+            {
+              identifier: 'sixtyseven',
+              position: {
+                top: '49%',
+                left: '49.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'c'
+            },
+            {
+              identifier: 'sixtyeight',
+              position: {
+                top: '50.6%',
+                left: '49.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'h'
+            },
+            {
+              identifier: 'sixtynine',
+              position: {
+                top: '52.4%',
+                left: '49.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'h'
+            },
+            {
+              identifier: 'seventy',
+              position: {
+                top: '54.1%',
+                left: '49.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'a'
+            },
+            {
+              identifier: 'seventyone',
+              position: {
+                top: '55.8%',
+                left: '49.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'n'
+            },
+            {
+              identifier: 'seventytwo',
+              position: {
+                top: '57.6%',
+                left: '49.1%',
+                width: '2.4%',
+                height: '1.8%'
+              },
+              model: '',
+              solution: 'd'
+            }
+          ]
         }
       ]
     },
