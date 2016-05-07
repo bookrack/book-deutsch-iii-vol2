@@ -1,15 +1,16 @@
 .typer {
-  &--41-0 {
-    font-size: 18px;
+  &--08-0 {
     width: 100%;
     height: 100%;
     border-radius: 50%;
   }
 
-  &--52-0 {
-    width: 75%;
-    font-size: 2rem;
-    letter-spacing: 15px;
+  &--21-0 {
+    width: 80%;
+
+    &[name="eight"] {
+      width: 70%;
+    }
   }
 }
 
@@ -18,37 +19,6 @@
     & + .labelChecker__answer {
       width: 12%;
       height: 40%;
-    }
-  }
-
-  &--29-0 {
-    & + .labelChecker__answer {
-      width: 30%;
-      height: 18%;
-    }
-
-    @at-root .page29 label[for="twotrue"] {
-      background-image: url(../img/checker--false.png);
-    }
-
-    @at-root .page29 label[for="twofalse"] {
-      background-image: url(../img/checker--true.png);
-    }
-
-    @at-root .page29 label[for="threetrue"] {
-      background-image: url(../img/checker--indeterminate.png);
-    }
-
-    @at-root .page29 label[for="threeindeterminate"] {
-      background-image: url(../img/checker--true.png);
-    }
-
-    @at-root .page29 label[for="fivetrue"] {
-      background-image: url(../img/checker--false.png);
-    }
-
-    @at-root .page29 label[for="fivefalse"] {
-      background-image: url(../img/checker--true.png);
     }
   }
 }
