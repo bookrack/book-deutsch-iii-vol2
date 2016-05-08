@@ -1,5 +1,72 @@
 module.exports = function() {
   return {
+    '04': {
+      toc: [
+        {
+          route: '04-05',
+          trigger: {
+              top: '17%',
+              bottom: '78%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '24-25',
+          trigger: {
+              top: '23%',
+              bottom: '72%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '46-47',
+          trigger: {
+              top: '29%',
+              bottom: '66%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '68-69',
+          trigger: {
+              top: '35%',
+              bottom: '60%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '70-71',
+          trigger: {
+              top: '41%',
+              bottom: '54%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '78-79',
+          trigger: {
+              top: '47%',
+              bottom: '48%',
+              left: '8%',
+              width: '64%'
+          }
+        },
+        {
+          route: '82-83',
+          trigger: {
+              top: '53%',
+              bottom: '42%',
+              left: '8%',
+              width: '64%'
+          }
+        }
+      ]
+    },
     '05': {
       static: [
         {
