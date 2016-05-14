@@ -67,8 +67,8 @@
 
   &--56-0 {
     & + .labelChecker__answer {
-      width: 34%;
-      height: 40%;
+      width: 100%;
+      height: 50%;
     }
   }
 
@@ -93,4 +93,73 @@
       width: 19%;
     }
   }
+}
+
+.page34 video {
+  width: 80%;
+}
+
+.page54 video {
+  width: 80%;
+}
+
+.page56 .exercise__row:nth-child(1) {
+  border: 2px solid #F9BA0D;
+  border-radius: 5px;
+}
+.page56 .exercise__row:nth-child(1) .labelChecker__answer--true {
+  border-top: 2px solid #F9BA0D;
+}
+.page56 .exercise__row:nth-child(1) .labelChecker__answer--false {
+  border-bottom: 2px solid #F9BA0D;
+}
+.page56 .exercise__row:nth-child(2) {
+  border: 2px solid #EA71A1;
+  border-radius: 5px;
+}
+.page56 .exercise__row:nth-child(2) .labelChecker__answer--true {
+  border-bottom: 2px solid #EA71A1;
+}
+.page56 .exercise__row:nth-child(2) .labelChecker__answer--false {
+  border-top: 2px solid #EA71A1;
+}
+.page56 .exercise__row:nth-child(3) {
+  border: 2px solid #9188B4;
+  border-radius: 5px;
+}
+.page56 .exercise__row:nth-child(3) .labelChecker__answer--true {
+  border-bottom: 2px solid #9188B4;
+}
+.page56 .exercise__row:nth-child(3) .labelChecker__answer--false {
+  border-top: 2px solid #9188B4;
+}
+.page56 .exercise__row:nth-child(4) {
+  border: 2px solid #53AB49;
+  border-radius: 5px;
+}
+.page56 .exercise__row:nth-child(4) .labelChecker__answer--true {
+  border-bottom: 2px solid #53AB49;
+}
+.page56 .exercise__row:nth-child(4) .labelChecker__answer--false {
+  border-top: 2px solid #53AB49;
+}
+.page56 .exercise__row:nth-child(5) {
+  border: 2px solid #18B8E3;
+  border-radius: 5px;
+}
+.page56 .exercise__row:nth-child(5) .labelChecker__answer--true {
+  border-top: 2px solid #18B8E3;
+}
+.page56 .exercise__row:nth-child(5) .labelChecker__answer--false {
+  border-bottom: 2px solid #18B8E3;
+}
+.page56 .exercise__row:nth-child(6) {
+  border: 2px solid #90BD24;
+  border-radius: 5px;
+}
+.page56 .exercise__row:nth-child(6) .labelChecker__answer--true {
+  border-bottom: 2px solid #90BD24;
+}
+.page56 .exercise__row:nth-child(6) .labelChecker__answer--false {
+  border-top: 2px solid #90BD24;
 }

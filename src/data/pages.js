@@ -185,6 +185,10 @@ module.exports = function() {
           type: 'type',
           title: 'Hör zu, lies und schreib die Nummern!',
           image: 'pg08ex2',
+          audio: {
+            source: 'pg8ex2',
+            state: 'stopped'
+          },
           trigger: {
             button: {
               top: '9%'
@@ -200,7 +204,7 @@ module.exports = function() {
           // },
           help: {
             toggle: false,
-            text: 'Asculta, citeste si scrie numarul.Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Asculta, citeste si scrie numarul.Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -706,7 +710,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Completeaza cu formele lui “haben”.Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Completeaza cu formele lui “haben”.Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -800,6 +804,191 @@ module.exports = function() {
               solution: 'haben'
             }
           ]
+        },
+        {
+          type: 'linker',
+          image: '02',
+          title: 'Verbinde!',
+          trigger: {
+            button: {
+              top: '67%'
+            },
+            zone: {
+              top: '66%',
+              bottom: '6%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Uneste intrebarea cu raspunsul corect. Cand ai terminat apasa pe cheita si verifica. Succes!'
+          },
+          data: [
+            {
+              identifier: '1',
+              style: {
+                top: '20%',
+                left: '10%',
+                width: '30%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '21-1.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: '2',
+              style: {
+                top: '30%',
+                left: '10%',
+                width: '27%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '21-2.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: '3',
+              style: {
+                top: '40%',
+                left: '10%',
+                width: '30%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '21-3.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: '4',
+              style: {
+                top: '50%',
+                left: '10%',
+                width: '30%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '21-4.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: '5',
+              style: {
+                top: '63%',
+                left: '10%',
+                width: '30%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '21-5.png'
+              },
+              sourceAnchors: ["RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'a',
+              style: {
+                top: '20%',
+                left: '61%',
+                width: '28%',
+                height: 'auto'
+              },
+              image: {
+                src: '21-a.png'
+              },
+              solution: '4',
+              solutionImg: {
+                src: '21-a.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'b',
+              style: {
+                top: '32%',
+                left: '61%',
+                width: '30%',
+                height: 'auto'
+              },
+              image: {
+                src: '21-b.png'
+              },
+              solution: '3',
+              solutionImg: {
+                src: '21-b.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'c',
+              style: {
+                top: '44%',
+                left: '61%',
+                width: '30%',
+                height: 'auto'
+              },
+              image: {
+                src: '21-c.png'
+              },
+              solution: '2',
+              solutionImg: {
+                src: '21-c.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'd',
+              style: {
+                top: '53%',
+                left: '61%',
+                width: '30%',
+                height: 'auto'
+              },
+              image: {
+                src: '21-d.png'
+              },
+              solution: '1',
+              solutionImg: {
+                src: '21-d.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'e',
+              style: {
+                top: '63%',
+                left: '61%',
+                width: '35%',
+                height: 'auto'
+              },
+              image: {
+                src: '21-e.png'
+              },
+              solution: '5',
+              solutionImg: {
+                src: '21-e.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            }
+          ]
         }
       ]
     },
@@ -838,7 +1027,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'In fiecare propozitie exista cuvinte in plus. Scrise la rand formeaza un proverb.'
+            text: 'Selecteaza din propozitii cuvintele in plus care scrise la rand formeaza un proverb. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -1015,13 +1204,13 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Asculta si scrie numarul.Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Asculta si scrie numarul.Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
               identifier: 'one',
               position: {
-                top: '83.8%',
+                top: '90.8%',
                 left: '39.7%',
                 width: '6.6%',
                 height: '5.5%'
@@ -1032,7 +1221,7 @@ module.exports = function() {
             {
               identifier: 'two',
               position: {
-                top: '30.8%',
+                top: '37.8%',
                 left: '12%',
                 width: '6.6%',
                 height: '5.5%'
@@ -1043,7 +1232,7 @@ module.exports = function() {
             {
               identifier: 'three',
               position: {
-                top: '57%',
+                top: '64%',
                 left: '10.8%',
                 width: '6.6%',
                 height: '5.5%'
@@ -1054,7 +1243,7 @@ module.exports = function() {
             {
               identifier: 'four',
               position: {
-                top: '83.8%',
+                top: '90.8%',
                 left: '66.6%',
                 width: '6.6%',
                 height: '5.5%'
@@ -1065,7 +1254,7 @@ module.exports = function() {
             {
               identifier: 'five',
               position: {
-                top: '30.8%',
+                top: '37.8%',
                 left: '65.6%',
                 width: '6.6%',
                 height: '5.5%'
@@ -1076,7 +1265,7 @@ module.exports = function() {
             {
               identifier: 'six',
               position: {
-                top: '83.8%',
+                top: '90.8%',
                 left: '13%',
                 width: '6.6%',
                 height: '5.5%'
@@ -1087,7 +1276,7 @@ module.exports = function() {
             {
               identifier: 'seven',
               position: {
-                top: '57%',
+                top: '64%',
                 left: '38.8%',
                 width: '6.6%',
                 height: '5.5%'
@@ -1098,7 +1287,7 @@ module.exports = function() {
             {
               identifier: 'eight',
               position: {
-                top: '57%',
+                top: '64%',
                 left: '67.2%',
                 width: '6.6%',
                 height: '5.5%'
@@ -1109,7 +1298,7 @@ module.exports = function() {
             {
               identifier: 'nine',
               position: {
-                top: '30.8%',
+                top: '37.8%',
                 left: '38.8%',
                 width: '6.6%',
                 height: '5.5%'
@@ -1228,14 +1417,14 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Citeste si bifeaza R(corect) sau F(gresit)Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Citeste si bifeaza R(corect) sau F(gresit)Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
               identifier: 'one',
               model: '',
               position: {
-                top: '38.5%',
+                top: '67.9%',
                 left: '79.9%',
                 width: '8.4%',
                 height: '2.5%'
@@ -1253,7 +1442,7 @@ module.exports = function() {
               identifier: 'two',
               model: '',
               position: {
-                top: '41.6%',
+                top: '70.9%',
                 left: '79.9%',
                 width: '8.4%',
                 height: '2.5%'
@@ -1271,7 +1460,7 @@ module.exports = function() {
               identifier: 'three',
               model: '',
               position: {
-                top: '44.6%',
+                top: '73.9%',
                 left: '79.9%',
                 width: '8.4%',
                 height: '2.5%'
@@ -1289,7 +1478,7 @@ module.exports = function() {
               identifier: 'four',
               model: '',
               position: {
-                top: '47.6%',
+                top: '76.9%',
                 left: '79.9%',
                 width: '8.4%',
                 height: '2.5%'
@@ -1307,7 +1496,7 @@ module.exports = function() {
               identifier: 'five',
               model: '',
               position: {
-                top: '50.6%',
+                top: '79.9%',
                 left: '79.9%',
                 width: '8.4%',
                 height: '2.5%'
@@ -1325,7 +1514,7 @@ module.exports = function() {
               identifier: 'six',
               model: '',
               position: {
-                top: '53.6%',
+                top: '82.9%',
                 left: '79.9%',
                 width: '8.4%',
                 height: '2.5%'
@@ -1343,7 +1532,7 @@ module.exports = function() {
               identifier: 'seven',
               model: '',
               position: {
-                top: '56.6%',
+                top: '85.9%',
                 left: '79.9%',
                 width: '8.4%',
                 height: '2.5%'
@@ -1361,7 +1550,7 @@ module.exports = function() {
               identifier: 'eight',
               model: '',
               position: {
-                top: '59.6%',
+                top: '88.9%',
                 left: '79.9%',
                 width: '8.4%',
                 height: '2.5%'
@@ -1384,7 +1573,7 @@ module.exports = function() {
         {
           image: 'pg33ex11',
           audio: {
-            source: 'fundal',
+            source: 'pg33ex11',
             state: 'stopped'
           },
           trigger: {
@@ -1652,7 +1841,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Scrie ce tip de carti sunt cele ilustrate. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Scrie ce tip de carti sunt cele ilustrate. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -1734,6 +1923,261 @@ module.exports = function() {
               },
               model: '',
               solution: 'Aben­teuerbuch'
+            }
+          ]
+        }
+      ]
+    },
+    '45': {
+      exercise: [
+        {
+          type: 'linker',
+          image: '02',
+          title: 'Verbinde Satz und Bild!',
+          trigger: {
+            button: {
+              top: '10%'
+            },
+            zone: {
+              top: '7%',
+              bottom: '3%'
+            }
+          },
+          help: {
+            toggle: false,
+            text: 'Uneste afirmatiile cu imaginile corespunzatoare.Cand ai terminat apasa pe cheita si verification Succes!'
+          },
+          data: [
+            {
+              identifier: 'man-kann-sie',
+              style: {
+                top: '15%',
+                left: '36%',
+                width: '30%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '45-man-kann-sie.png'
+              },
+              sourceAnchors: ["LeftMiddle","RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'papa-kann-sie',
+              style: {
+                top: '25%',
+                left: '38%',
+                width: '25%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '45-papa-kann-sie.png'
+              },
+              sourceAnchors: ["LeftMiddle","RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'wir-konnen-uber-sie-weinen',
+              style: {
+                top: '35%',
+                left: '36%',
+                width: '30%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '45-wir-konnen-uber-sie-weinen.png'
+              },
+              sourceAnchors: ["LeftMiddle","RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'wir-konnen-uber-sie-lachen',
+              style: {
+                top: '45%',
+                left: '36%',
+                width: '30%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '45-wir-konnen-uber-sie-lachen.png'
+              },
+              sourceAnchors: ["LeftMiddle","RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'wir-konnen-uber-sie-nachdenken',
+              style: {
+                top: '55%',
+                left: '35%',
+                width: '32%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '45-wir-konnen-uber-sie-nachdenken.png'
+              },
+              sourceAnchors: ["LeftMiddle","RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'man-kann-von-buchern-traumen',
+              style: {
+                top: '65%',
+                left: '35%',
+                width: '32%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '45-man-kann-von-buchern-traumen.png'
+              },
+              sourceAnchors: ["LeftMiddle","RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'man-kann-mit-buchern-etwas',
+              style: {
+                top: '75%',
+                left: '34%',
+                width: '35%',
+                height: 'auto',
+                color: '#8BCB6A'
+              },
+              image: {
+                src: '45-man-kann-mit-buchern-etwas.png'
+              },
+              sourceAnchors: ["LeftMiddle","RightMiddle"],
+              targetAnchors: []
+            },
+            {
+              identifier: 'baiat-pe-fotoliu-citeste-carte',
+              style: {
+                top: '7%',
+                left: '5%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '45-baiat-pe-fotoliu-citeste-carte.png'
+              },
+              solution: 'wir-konnen-uber-sie-lachen',
+              solutionImg: {
+                src: '45-baiat-pe-fotoliu-citeste-carte.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["RightMiddle"]
+            },
+            {
+              identifier: 'fata-citeste-cartea-si-isi-imagineaza',
+              style: {
+                top: '29%',
+                left: '5%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '45-fata-citeste-cartea-si-isi-imagineaza.png'
+              },
+              solution: 'man-kann-von-buchern-traumen',
+              solutionImg: {
+                src: '45-fata-citeste-cartea-si-isi-imagineaza.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["RightMiddle"]
+            },
+            {
+              identifier: 'baiat-citeste-carte',
+              style: {
+                top: '57%',
+                left: '5%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '45-baiat-citeste-carte.png'
+              },
+              solution: 'wir-konnen-uber-sie-nachdenken',
+              solutionImg: {
+                src: '45-baiat-citeste-carte.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["RightMiddle"]
+            },
+            {
+              identifier: 'fata-in-pat-citeste-carte',
+              style: {
+                top: '77%',
+                left: '5%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '45-fata-in-pat-citeste-carte.png'
+              },
+              solution: 'man-kann-sie',
+              solutionImg: {
+                src: '45-fata-in-pat-citeste-carte.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["RightMiddle"]
+            },
+            {
+              identifier: 'barbat-cu-fetita-in-brate',
+              style: {
+                top: '7%',
+                left: '75%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '45-barbat-cu-fetita-in-brate.png'
+              },
+              solution: 'papa-kann-sie',
+              solutionImg: {
+                src: '45-barbat-cu-fetita-in-brate.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'femeia-citeste-cartea-si-se-intristeaza',
+              style: {
+                top: '35%',
+                left: '75%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '45-femeia-citeste-cartea-si-se-intristeaza.png'
+              },
+              solution: 'wir-konnen-uber-sie-weinen',
+              solutionImg: {
+                src: '45-femeia-citeste-cartea-si-se-intristeaza.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
+            },
+            {
+              identifier: 'baiat-ia-dulceata-din-dulap',
+              style: {
+                top: '62%',
+                left: '75%',
+                width: '20%',
+                height: 'auto'
+              },
+              image: {
+                src: '45-baiat-ia-dulceata-din-dulap.png'
+              },
+              solution: 'man-kann-mit-buchern-etwas',
+              solutionImg: {
+                src: '45-baiat-ia-dulceata-din-dulap.png'
+              },
+              sourceAnchors: [],
+              targetAnchors: ["LeftMiddle"]
             }
           ]
         }
@@ -1920,14 +2364,14 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Citeste si bifeaza R(corect) sau F(gresit). Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Citeste si bifeaza R(corect) sau F(gresit). Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
               identifier: 'one',
               model: '',
               position: {
-                top: '36%',
+                top: '65.5%',
                 left: '81.2%',
                 width: '8.1%',
                 height: '2.6%'
@@ -1945,7 +2389,7 @@ module.exports = function() {
               identifier: 'two',
               model: '',
               position: {
-                top: '39.4%',
+                top: '69%',
                 left: '81.2%',
                 width: '8.1%',
                 height: '2.6%'
@@ -1963,7 +2407,7 @@ module.exports = function() {
               identifier: 'three',
               model: '',
               position: {
-                top: '42.6%',
+                top: '72.2%',
                 left: '81.2%',
                 width: '8.1%',
                 height: '2.6%'
@@ -1981,7 +2425,7 @@ module.exports = function() {
               identifier: 'four',
               model: '',
               position: {
-                top: '48.3%',
+                top: '77.8%',
                 left: '81.2%',
                 width: '8.1%',
                 height: '2.6%'
@@ -1999,7 +2443,7 @@ module.exports = function() {
               identifier: 'five',
               model: '',
               position: {
-                top: '51.5%',
+                top: '81.2%',
                 left: '81.2%',
                 width: '8.1%',
                 height: '2.6%'
@@ -2017,7 +2461,7 @@ module.exports = function() {
               identifier: 'six',
               model: '',
               position: {
-                top: '54.8%',
+                top: '84.4%',
                 left: '81.2%',
                 width: '8.1%',
                 height: '2.6%'
@@ -2035,7 +2479,7 @@ module.exports = function() {
               identifier: 'seven',
               model: '',
               position: {
-                top: '58.1%',
+                top: '87.6%',
                 left: '81.2%',
                 width: '8.1%',
                 height: '2.6%'
@@ -2053,7 +2497,7 @@ module.exports = function() {
               identifier: 'eight',
               model: '',
               position: {
-                top: '61.4%',
+                top: '90.9%',
                 left: '81.2%',
                 width: '8.1%',
                 height: '2.6%'
@@ -2182,25 +2626,25 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Asculta si bifeaza pretul corect. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Asculta si bifeaza pretul corect. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
               identifier: 'one',
               model: '',
               position: {
-                top: '35.4%',
-                left: '10.2%',
-                width: '8.6%',
+                top: '35.6%',
+                left: '6.2%',
+                width: '3.5%',
                 height: '5.1%'
               },
               answerFalse: {
                 top: '7%',
-                left: '44%'
+                left: '0%'
               },
               answerTrue: {
                 top: '50%',
-                left: '44%'
+                left: '0%'
               }
             },
             {
@@ -2208,17 +2652,17 @@ module.exports = function() {
               model: '',
               position: {
                 top: '35%',
-                left: '49.2%',
-                width: '8.6%',
+                left: '45.6%',
+                width: '3.5%',
                 height: '5.1%'
               },
               answerTrue: {
                 top: '7%',
-                left: '44%'
+                left: '0%'
               },
               answerFalse: {
                 top: '50%',
-                left: '44%'
+                left: '0%'
               }
             },
             {
@@ -2226,35 +2670,35 @@ module.exports = function() {
               model: '',
               position: {
                 top: '37.6%',
-                left: '80.4%',
-                width: '8.6%',
+                left: '89.4%',
+                width: '3.5%',
                 height: '5.1%'
               },
               answerTrue: {
                 top: '7%',
-                left: '44%'
+                left: '0%'
               },
               answerFalse: {
                 top: '50%',
-                left: '44%'
+                left: '0%'
               }
             },
             {
               identifier: 'four',
               model: '',
               position: {
-                top: '57.6%',
-                left: '11.2%',
-                width: '8.6%',
+                top: '58.2%',
+                left: '7.2%',
+                width: '3.5%',
                 height: '5.1%'
               },
               answerTrue: {
                 top: '7%',
-                left: '44%'
+                left: '0%'
               },
               answerFalse: {
                 top: '50%',
-                left: '44%'
+                left: '0%'
               }
             },
             {
@@ -2262,35 +2706,35 @@ module.exports = function() {
               model: '',
               position: {
                 top: '49.8%',
-                left: '39%',
-                width: '8.6%',
+                left: '35.5%',
+                width: '3.5%',
                 height: '5.1%'
               },
               answerFalse: {
                 top: '7%',
-                left: '44%'
+                left: '0%'
               },
               answerTrue: {
                 top: '50%',
-                left: '44%'
+                left: '0%'
               }
             },
             {
               identifier: 'six',
               model: '',
               position: {
-                top: '60.1%',
-                left: '77.2%',
-                width: '8.6%',
+                top: '60.3%',
+                left: '86.5%',
+                width: '3.5%',
                 height: '5.1%'
               },
               answerTrue: {
                 top: '7%',
-                left: '44%'
+                left: '0%'
               },
               answerFalse: {
                 top: '50%',
-                left: '44%'
+                left: '0%'
               }
             }
           ]
@@ -2458,13 +2902,13 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Completeaza unde poti cumpara produsele. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Completeaza unde poti cumpara produsele. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
               identifier: 'one',
               position: {
-                top: '14.4%',
+                top: '20%',
                 left: '72%',
                 width: '22%'
               },
@@ -2474,37 +2918,17 @@ module.exports = function() {
             {
               identifier: 'two',
               position: {
-                top: '28.8%',
+                top: '34.5%',
                 left: '69%',
                 width: '27%'
               },
               model: '',
-              solution: 'Bekleidungsgeschäft.'
+              solution: 'Spielwarengeschäft.'
             },
             {
               identifier: 'three',
               position: {
-                top: '43.5%',
-                left: '65%',
-                width: '30%'
-              },
-              model: '',
-              solution: 'Im Spielwarengeschäft.'
-            },
-            {
-              identifier: 'four',
-              position: {
-                top: '58%',
-                left: '65%',
-                width: '30%'
-              },
-              model: '',
-              solution: 'In der Drogerie.'
-            },
-            {
-              identifier: 'five',
-              position: {
-                top: '72.6%',
+                top: '49.1%',
                 left: '65%',
                 width: '30%'
               },
@@ -2512,9 +2936,29 @@ module.exports = function() {
               solution: 'In der Tierhandlung.'
             },
             {
+              identifier: 'four',
+              position: {
+                top: '63.5%',
+                left: '65%',
+                width: '30%'
+              },
+              model: '',
+              solution: 'Im Bekleidungsgeschäft.'
+            },
+            {
+              identifier: 'five',
+              position: {
+                top: '78.2%',
+                left: '65%',
+                width: '30%'
+              },
+              model: '',
+              solution: 'In der Drogerie.'
+            },
+            {
               identifier: 'six',
               position: {
-                top: '87.2%',
+                top: '92.8%',
                 left: '65%',
                 width: '30%'
               },
@@ -2614,7 +3058,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Scrie cuvintele corect si uneste-le cu imaginile. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Scrie cuvintele corect si uneste-le cu imaginile. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -2694,7 +3138,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Scrie propozitiile punand cuvintele in ordinea corecta. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Scrie propozitiile punand cuvintele in ordinea corecta. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -2758,7 +3202,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Bifeaza propozitiile corecte. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Bifeaza propozitiile corecte. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -2944,7 +3388,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Scrie numele magazinelor. Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Scrie numele magazinelor. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
