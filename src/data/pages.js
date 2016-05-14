@@ -1945,7 +1945,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Uneste afirmatiile cu imaginile corespunzatoare.Cand ai terminat apasa pe cheita si verification Succes!'
+            text: 'Uneste afirmatiile cu imaginile corespunzatoare.Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -2633,31 +2633,31 @@ module.exports = function() {
               identifier: 'one',
               model: '',
               position: {
-                top: '35.6%',
-                left: '6.2%',
+                top: '36.6%',
+                left: '6%',
                 width: '3.5%',
-                height: '5.1%'
+                height: '4.1%'
               },
               answerFalse: {
                 top: '7%',
                 left: '0%'
               },
               answerTrue: {
-                top: '50%',
-                left: '0%'
+                top: '55%',
+                left: '11%'
               }
             },
             {
               identifier: 'two',
               model: '',
               position: {
-                top: '35%',
-                left: '45.6%',
+                top: '35.4%',
+                left: '58.6%',
                 width: '3.5%',
-                height: '5.1%'
+                height: '4.1%'
               },
               answerTrue: {
-                top: '7%',
+                top: '0%',
                 left: '0%'
               },
               answerFalse: {
@@ -2669,17 +2669,17 @@ module.exports = function() {
               identifier: 'three',
               model: '',
               position: {
-                top: '37.6%',
-                left: '89.4%',
+                top: '37.8%',
+                left: '90.9%',
                 width: '3.5%',
-                height: '5.1%'
+                height: '4.1%'
               },
               answerTrue: {
                 top: '7%',
                 left: '0%'
               },
               answerFalse: {
-                top: '50%',
+                top: '58%',
                 left: '0%'
               }
             },
@@ -2687,53 +2687,53 @@ module.exports = function() {
               identifier: 'four',
               model: '',
               position: {
-                top: '58.2%',
+                top: '58.6%',
                 left: '7.2%',
                 width: '3.5%',
-                height: '5.1%'
+                height: '4.1%'
               },
               answerTrue: {
                 top: '7%',
                 left: '0%'
               },
               answerFalse: {
-                top: '50%',
-                left: '0%'
+                top: '59%',
+                left: '14%'
               }
             },
             {
               identifier: 'five',
               model: '',
               position: {
-                top: '49.8%',
-                left: '35.5%',
+                top: '50%',
+                left: '35.8%',
                 width: '3.5%',
-                height: '5.1%'
+                height: '4.1%'
               },
               answerFalse: {
-                top: '7%',
-                left: '0%'
+                top: '0%',
+                left: '7%'
               },
               answerTrue: {
-                top: '50%',
-                left: '0%'
+                top: '58%',
+                left: '14%'
               }
             },
             {
               identifier: 'six',
               model: '',
               position: {
-                top: '60.3%',
-                left: '86.5%',
+                top: '61.3%',
+                left: '87.5%',
                 width: '3.5%',
-                height: '5.1%'
+                height: '4.1%'
               },
               answerTrue: {
-                top: '7%',
-                left: '0%'
+                top: '0%',
+                left: '13%'
               },
               answerFalse: {
-                top: '50%',
+                top: '53%',
                 left: '0%'
               }
             }
