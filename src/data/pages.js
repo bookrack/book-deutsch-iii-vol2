@@ -204,7 +204,7 @@ module.exports = function() {
           // },
           help: {
             toggle: false,
-            text: 'Asculta, citeste si scrie numarul.Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Asculta, citeste si scrie numarul. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -381,37 +381,6 @@ module.exports = function() {
               bottom: '3%'
             }
           }
-        }
-      ]
-    },
-    '12': {
-      exercise: [
-        {
-          type: 'linker',
-          title: '',
-          image: '02',
-          trigger: {
-            button: {
-              top: '9%'
-            },
-            zone: {
-              top: '9%',
-              bottom: '29%'
-            }
-          },
-          audio: {
-            source: 'pg12ex7',
-            state: 'stopped'
-          },
-          help: {
-            toggle: false,
-            text: ''
-          },
-          data: [
-            {
-
-            }
-          ]
         }
       ]
     },
@@ -710,7 +679,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Completeaza cu formele lui “haben”.Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Completeaza cu formele lui “haben”. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -1204,7 +1173,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Asculta si scrie numarul.Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Asculta si scrie numarul. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -1417,7 +1386,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Citeste si bifeaza R(corect) sau F(gresit)Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Citeste si bifeaza R(corect) sau F(gresit). Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -1945,7 +1914,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Uneste afirmatiile cu imaginile corespunzatoare.Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Uneste afirmatiile cu imaginile corespunzatoare. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
@@ -2902,7 +2871,7 @@ module.exports = function() {
           },
           help: {
             toggle: false,
-            text: 'Completeaza unde poti cumpara produsele. Cand ai terminat apasa pe cheita si verifica. Succes!'
+            text: 'Completeaza de unde poti cumpara produsele. Cand ai terminat apasa pe cheita si verifica. Succes!'
           },
           data: [
             {
