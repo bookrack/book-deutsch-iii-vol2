@@ -3062,9 +3062,9 @@ module.exports = function() {
                 pre: 'pg71ex3infopre',
                 post: 'pg71ex3infopost',
                 position: {
-                  top: '39%',
-                  left: '83%',
-                  width: '9%'
+                  top: '38%',
+                  left: '82.5%',
+                  width: '12%'
                 }
               }
             },
@@ -3081,9 +3081,9 @@ module.exports = function() {
                 pre: 'pg71ex3historypre',
                 post: 'pg71ex3historypost',
                 position: {
-                  top: '55%',
-                  left: '71%',
-                  width: '9%'
+                  top: '54%',
+                  left: '70%',
+                  width: '11%'
                 }
               }
             },
@@ -3119,9 +3119,9 @@ module.exports = function() {
                 pre: 'pg71ex3biologypre',
                 post: 'pg71ex3biologypost',
                 position: {
-                  top: '38%',
+                  top: '37%',
                   left: '71%',
-                  width: '10%'
+                  width: '11%'
                 }
               }
             },
@@ -3138,9 +3138,9 @@ module.exports = function() {
                 pre: 'pg71ex3gerpre',
                 post: 'pg71ex3gerpost',
                 position: {
-                  top: '39%',
+                  top: '38%',
                   left: '61%',
-                  width: '9%'
+                  width: '10%'
                 }
               }
             }
