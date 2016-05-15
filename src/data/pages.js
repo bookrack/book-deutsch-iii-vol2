@@ -3069,7 +3069,16 @@ module.exports = function() {
                 width: '24%'
               },
               model: '',
-              solution: 'ERDKUNDE'
+              solution: 'ERDKUNDE',
+              validation: {
+                pre: 'pg71ex3geopre',
+                post: 'pg71ex3geopost',
+                position: {
+                  top: '54%',
+                  left: '61%',
+                  width: '9%'
+                }
+              }
             },
             {
               identifier: 'two',
@@ -3079,7 +3088,16 @@ module.exports = function() {
                 width: '24%'
               },
               model: '',
-              solution: 'INFORMATIK'
+              solution: 'INFORMATIK',
+              validation: {
+                pre: 'pg71ex3infopre',
+                post: 'pg71ex3infopost',
+                position: {
+                  top: '39%',
+                  left: '83%',
+                  width: '9%'
+                }
+              }
             },
             {
               identifier: 'three',
@@ -3089,7 +3107,16 @@ module.exports = function() {
                 width: '24%'
               },
               model: '',
-              solution: 'GESCHICHTE'
+              solution: 'GESCHICHTE',
+              validation: {
+                pre: 'pg71ex3historypre',
+                post: 'pg71ex3historypost',
+                position: {
+                  top: '55%',
+                  left: '71%',
+                  width: '9%'
+                }
+              }
             },
             {
               identifier: 'four',
@@ -3099,7 +3126,16 @@ module.exports = function() {
                 width: '24%'
               },
               model: '',
-              solution: 'MUSIK'
+              solution: 'MUSIK',
+              validation: {
+                pre: 'pg71ex3musicpre',
+                post: 'pg71ex3musicpost',
+                position: {
+                  top: '47%',
+                  left: '82%',
+                  width: '11%'
+                }
+              }
             },
             {
               identifier: 'five',
@@ -3109,7 +3145,16 @@ module.exports = function() {
                 width: '24%'
               },
               model: '',
-              solution: 'BIOLOGIE'
+              solution: 'BIOLOGIE',
+              validation: {
+                pre: 'pg71ex3biologypre',
+                post: 'pg71ex3biologypost',
+                position: {
+                  top: '38%',
+                  left: '71%',
+                  width: '10%'
+                }
+              }
             },
             {
               identifier: 'six',
@@ -3119,7 +3164,16 @@ module.exports = function() {
                 width: '24%'
               },
               model: '',
-              solution: 'DEUTSCH'
+              solution: 'DEUTSCH',
+              validation: {
+                pre: 'pg71ex3gerpre',
+                post: 'pg71ex3gerpost',
+                position: {
+                  top: '39%',
+                  left: '61%',
+                  width: '9%'
+                }
+              }
             }
           ]
         },
